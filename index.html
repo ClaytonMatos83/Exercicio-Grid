@@ -8,48 +8,64 @@
 </head>
 
 <body>
+
+<header class="header">
 <img src="./img/bikcraft.svg" alt="Bikcraft">
 
-<div class="menu">
-  <a href="/">Sobre</a>
-    <a href="/">Produtos</a>
-    <a href="/">Loja</a>
-  <a href="/">Contatos</a>
-</div>
+<nav aria-label="primária">
 
-<div class="conteudo">
-  <div class="introdução">
+    <ul class="menu">
+  <li><a href="/">Sobre</a></li>
+    <li><a href="/">Produtos</a></li>
+    <li><a href="/">Loja</a></li>
+    <li><a href="/">Loja</a></li>
+  <li><a href="/">Contatos</a>
+    </ul>
+
+</nav>
+
+    </header>
+
+<main>
+
+    <article  class="conteudo">
+  <div class="introdução" aria-labelledby="label-introduçao" >
     <span class="detalhe"></span>
-  <h1>Bicicletas feitas a mão</h1>
+  <h1 id="label-introduçao">Bicicletas feitas a mão</h1>
   <p>A Nimbus Stark é a melhor Bikcraft já criada pela nossa equipe.
     Ela vem equipada com os melhores acessórios da marca.</p>
     <a  class="botao" href="/">Ver Mais</a>
-</div>
-
+   </div>
      <img src="/img/bicicleta.jpg" alt="Bicicleta Bikcraft Preta">
+        </article>
 
-  <h2>
-    <p class="subtitulo">Vantagens Bikcraft</p>
-  </h2>
+<article  class="conteudo" aria-labelledby="label-vantagens" >
+  <h2 class="subtitulo" id="label-vantagens">Vantagens Bikcraft</h2>
+  <ul class="vantagens">
 
-  <div class="vantagens">
-    <div class="vantagens-item">
+    <li class="vantagens-item">
         <img src="./img/eletrica.svg" alt="">
         <h3>Motor Elétrico</h3>
         <p>Permite você viajar distâncias inimaginaveis com a sua bike.</p>
+        </li>
+
+      <li class="vantagens-item">
        <img src="./img/velocidade.svg" alt="">
         <h3>40 km/h</h3>
         <p>A mais rápida bicicleta elétrica disponível hoje no mercado.</p>
        <img src="./img/rastreador.svg" alt="">
         <h3>Rastreador</h3>
         <p>Rastredor e sistema ant-furto para garantir o seu sossego.</p>
-    </div>
-  </div>
-  </div>
+    </li>
 
-<div>
+  </ul>
+    </article>
+
+  </main>
+
+<footer>
   <p class="rodape"> Bikcraft. Alguns Direitos Reservados. </p>
-</div>
+</footer>
 
 
 </body>
